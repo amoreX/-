@@ -1,43 +1,53 @@
-body{
-    background-color: rgb(97, 97, 97);
+body {
+    background-image: url('./cheat.png');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-#one{
-    position:absolute;
-    left:0;
-    top:0;
-}
-
-#two{
+#one {
     position: absolute;
-    top:0;
-    right:0;
+    left: 0;
+    top: 0;
 }
 
+#two {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.second{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+
+}
 #third{
     position:absolute;
-    bottom:0;
-    left:50%;
+    left:61%;
+    top:50%
 }
-#fourth{
-    position:absolute;
-    bottom:0;
-    left:0;
+#fourth {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
-#fifth{
-    position:absolute;
-    bottom:0;
-    right:0;
+#fifth {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
-button{
+
+button {
     background-color: rgb(97, 97, 97);
-    border:none;
-    padding:10px;
-    opacity:0;
-    transition:0.25s ease-in-out;
+    border: none;
+    padding: 10px;
+    opacity: 0;
+    transition: 0.25s ease-in-out;
 }
 
-button:hover{
-    opacity:1;
+button:hover {
+    opacity: 1;
 }
