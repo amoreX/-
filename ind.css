@@ -46,6 +46,7 @@ button {
     padding: 10px;
     opacity: 0;
     transition: 0.25s ease-in-out;
+    cursor:pointer;
 }
 
 button:hover {
